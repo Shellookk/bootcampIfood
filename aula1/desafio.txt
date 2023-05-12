@@ -1,0 +1,19 @@
+Faça um programa para calcular o valor gasto de combustivel em uma viagem
+
+você terá 3 variaveis:
+    1 - preço combustivel
+    2 - valor médio de gasto do combustivel
+    3 - distancia em km
+
+imprima no console o valor que será gsto de combustivel para realizar esta viagem
+
+preco_combustivel = input('digite o preço do combustivel: ');
+
+gasto_medio = input('digite o gasto médio de combustivel do carro por km: ');
+
+distancia = input('informe a distancia em km: '); 
+
+valor_total = (preco_combustivel + gasto_medio) * distancia;
+
+
+console.log(valor_total);

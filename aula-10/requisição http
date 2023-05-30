@@ -1,0 +1,30 @@
+para montar uma requisição http 
+
+URL: https://pokeapi.co/api/v2/pokemon
+            ${ip}/${path = caminho de identificação do recurso}
+
+IP:https://pokeapi.co
+
+Xpath:/api/v2/pokemon
+
+Request Method: Get| Post| put | Delete| patch |
+
+GET = buscar alguma coisa
+
+
+URL: https://pokeapi.co/api/v2/pokemon? -> query string // tudo que vem depois do ? é query string
+
+Request headers
+    COnfiguração
+    content-type: application/json
+Response Hearders
+
+
+Request Body
+{
+    "name": "Teste" 
+}
+-------------------------------------------------------------------------------------------------------
+
+
+
